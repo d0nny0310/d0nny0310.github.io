@@ -1,248 +1,36 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-<meta charset="UTF-8">
-<title>DIE CHRONIK – Beziehungsatlas</title>
-<style>
-:root{
-  --bg:#120f1b;
-  --panel:#1f1830;
-  --panel2:#2a2140;
-  --gold:#d8b56a;
-  --violet:#8d5cff;
-  --blue:#53b6ff;
-  --text:#eee8dc;
-  --muted:#b8aacd;
-  --danger:#9d58ff;
-}
-*{box-sizing:border-box}
-body{
-  margin:0;
-  font-family: Georgia, "Times New Roman", serif;
-  background:
-    radial-gradient(circle at top left, rgba(141,92,255,.22), transparent 35%),
-    radial-gradient(circle at bottom right, rgba(83,182,255,.12), transparent 35%),
-    var(--bg);
-  color:var(--text);
-  line-height:1.55;
-}
-header{
-  padding:46px 7vw 34px;
-  border-bottom:1px solid rgba(216,181,106,.35);
-  background:linear-gradient(135deg, rgba(31,24,48,.95), rgba(18,15,27,.92));
-}
-h1{
-  margin:0;
-  color:var(--gold);
-  letter-spacing:.06em;
-  font-size:clamp(2rem,5vw,4rem);
-}
-.subtitle{
-  margin-top:8px;
-  color:var(--muted);
-  font-size:1.1rem;
-}
-main{
-  width:min(1200px,92vw);
-  margin:34px auto 70px;
-}
-section{
-  background:linear-gradient(180deg, rgba(31,24,48,.93), rgba(22,17,34,.93));
-  border:1px solid rgba(216,181,106,.25);
-  border-radius:18px;
-  padding:24px;
-  margin:24px 0;
-  box-shadow:0 18px 50px rgba(0,0,0,.35);
-}
-h2{
-  color:var(--gold);
-  margin:0 0 14px;
-  border-bottom:1px solid rgba(216,181,106,.25);
-  padding-bottom:8px;
-}
-h3{
-  color:#e7d39a;
-  margin:22px 0 8px;
-}
-.grid{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-  gap:16px;
-}
-.card{
-  background:rgba(42,33,64,.78);
-  border:1px solid rgba(141,92,255,.22);
-  border-radius:14px;
-  padding:16px;
-}
-.card strong{color:var(--gold)}
-.badge{
-  display:inline-block;
-  padding:3px 9px;
-  border:1px solid rgba(216,181,106,.45);
-  border-radius:999px;
-  color:var(--gold);
-  font-size:.88rem;
-  margin-bottom:8px;
-}
-table{
-  width:100%;
-  border-collapse:collapse;
-  margin-top:12px;
-  overflow:hidden;
-  border-radius:12px;
-}
-th,td{
-  padding:10px 12px;
-  border-bottom:1px solid rgba(216,181,106,.18);
-  vertical-align:top;
-}
-th{
-  color:var(--gold);
-  background:rgba(216,181,106,.08);
-  text-align:left;
-}
-tr:hover td{background:rgba(141,92,255,.08)}
-pre{
-  white-space:pre-wrap;
-  background:#0e0b16;
-  border:1px solid rgba(216,181,106,.22);
-  border-radius:12px;
-  padding:16px;
-  color:#dfd2ff;
-}
-.axis{
-  font-family:ui-monospace,Consolas,monospace;
-  color:#d8caff;
-}
-.strength{
-  font-family:ui-monospace,Consolas,monospace;
-  color:var(--blue);
-}
-.note{
-  color:var(--muted);
-  font-style:italic;
-}
-footer{
-  color:var(--muted);
-  text-align:center;
-  padding:30px;
-  border-top:1px solid rgba(216,181,106,.2);
-}
-</style>
-</head>
-<body>
-<header>
-  <h1>DIE CHRONIK</h1>
-  <div class="subtitle">Beziehungsatlas – Aktueller Stand nach 5005</div>
-</header>
-
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DIE CHRONIK – DIE CHRONIK</title><link rel="stylesheet" href="assets/style.css"></head>
+<body><header><h1>DIE CHRONIK</h1><div class="subtitle">Basis-Wiki des Referenzatlas</div>
+    <nav>
+      <a href="index.html">Start</a>
+      <a href="charaktere/index.html">Charaktere</a>
+      <a href="orte/index.html">Orte</a>
+      <a href="artefakte/index.html">Artefakte</a>
+      <a href="ereignisse/index.html">Ereignisse</a>
+      <a href="handlungsfaeden/index.html">Handlungsfäden</a>
+      <a href="beziehungen.html">Beziehungen</a>
+    </nav></header>
 <main>
-<section>
-  <h2>Übersicht</h2>
-  <p>Der aktuelle Beziehungsstand der Hauptfiguren teilt sich in zwei starke Zentren: <strong>Olga und Valerion</strong> bilden die Forschungsachse um Geode, Erinnerungskristalle und Valerions Vergangenheit. <strong>Sui und Anne</strong> bilden die emotionale Schutzachse nach der Offenbarung von Annes Besessenheit und ihrer Verbannung. Daisuke steht zwischen Pflicht, Schutzverantwortung und persönlichem Schmerz. Kurz gesagt: Alle haben Probleme, aber wenigstens sind sie hübsch katalogisiert. Menschliche Zivilisation in Reinform.</p>
+<section><h2>Willkommen im Archiv von Elarion</h2>
+<p>Dieses kleine Wiki dokumentiert den aktuellen Basisatlas von <strong>DIE CHRONIK</strong>. Es umfasst Charaktere, Orte, Artefakte, historische Ereignisse, Handlungsfäden und Beziehungen nach dem Stand von <strong>5005 – Die Analyse der Geode</strong>.</p>
+<p>Die Handlung spielt auf <strong>Beta Velar</strong> und folgt den miteinander verflochtenen Ereignissen um das mysteriöse Drachenei, die Besessenheit Annes, Valerions Vergangenheit und die Erforschung der Seelengeode. Also eine ganz normale Projektakte, falls man „normal“ sehr großzügig definiert.</p>
 </section>
-
-<section>
-  <h2>0001 – Valerion Horatius</h2>
-  <div class="grid">
-    <div class="card"><span class="badge">Olga</span><br><strong>Enge Freundin / Forschungspartnerin</strong><p>Beginn durch 5001. Gemeinsame Untersuchung der Geode, Besuch in Valerions Haus, gemeinsames Essen, gegenseitige Fürsorge. Olga nennt ihn „Komrade“, Valerion findet bei ihr sichtbar Halt.</p></div>
-    <div class="card"><span class="badge">Anne</span><br><strong>Indirekt verbunden</strong><p>Noch kaum direkte Beziehung, aber über 3003, 8008 und die Besessenheit zunehmend indirekt verbunden.</p></div>
-    <div class="card"><span class="badge">Daisuke</span><br><strong>Keine nennenswerte direkte Beziehung</strong><p>Bisher keine ausgeprägte persönliche Achse.</p></div>
-    <div class="card"><span class="badge">Sui</span><br><strong>Indirekte Bekanntschaft</strong><p>Kennt sie vor allem über Olga und das Kloster. Durch die Geodenanalyse könnte sie bald stärker eingebunden werden.</p></div>
-  </div>
-</section>
-
-<section>
-  <h2>0002 – Olga Kirovsky</h2>
-  <div class="grid">
-    <div class="card"><span class="badge">Valerion</span><br><strong>Engste aktuelle Bindung außerhalb ihres Alltags</strong><p>Forschung, Vertrauen, Sorge, praktische Hilfe. Olga entfernt die Geode aus seiner Nähe, als diese seine Narbe schmerzhaft triggert, und erinnert ihn daran, dass sie ein Team sind.</p></div>
-    <div class="card"><span class="badge">Sui</span><br><strong>Freundschaftlich / vertrauensvoll</strong><p>Olga vertraut Suis Heilfähigkeiten und will sie bei Bedarf über den Kommunikationskristall kontaktieren.</p></div>
-    <div class="card"><span class="badge">Daisuke</span><br><strong>Respektvolle Bekanntschaft</strong><p>Keine starke persönliche Dynamik, aber verbunden über Kloster, Geode und die Ereignisse um Anne.</p></div>
-    <div class="card"><span class="badge">Anne</span><br><strong>Indirekt verbunden</strong><p>Kaum direkter Kontakt, aber Olga untersucht mit Valerion die Geode, die wahrscheinlich mit Annes Besessenheit zusammenhängt.</p></div>
-  </div>
-</section>
-
-<section>
-  <h2>0003 – Anne Marinowar</h2>
-  <div class="grid">
-    <div class="card"><span class="badge">Sui</span><br><strong>Wichtigste Vertrauensperson</strong><p>Sui heilt Anne, versiegelt die Präsenz, begleitet sie nach der Verbannung und verspricht, ihre Unschuld zu beweisen.</p></div>
-    <div class="card"><span class="badge">Daisuke</span><br><strong>Belastet / Pflichtkonflikt</strong><p>Daisuke glaubt nicht, dass Anne freiwillig gehandelt hat, verbannt sie aber zum Schutz des Klosters. Anne erlebt dies als schweren Verrat.</p></div>
-    <div class="card"><span class="badge">Valerion</span><br><strong>Indirekt über Geode verbunden</strong><p>Valerions Analyse der Geode liefert Hinweise auf Annes Besessenheit.</p></div>
-    <div class="card"><span class="badge">Olga</span><br><strong>Indirekt über Forschung verbunden</strong><p>Olga arbeitet an der Aufklärung der Geode und damit indirekt an Annes möglicher Entlastung.</p></div>
-  </div>
-</section>
-
-<section>
-  <h2>0004 – Daisuke Kasane</h2>
-  <div class="grid">
-    <div class="card"><span class="badge">Anne</span><br><strong>Schutzbedürfnis + Pflichtkonflikt</strong><p>Er verhindert die Entwendung des Eis und verbannt Anne später. Trotz Härte packt er ihr Bücher, Decke, Lebensmittel und Getränke ein.</p></div>
-    <div class="card"><span class="badge">Sui</span><br><strong>Enge Zusammenarbeit, erster Konflikt</strong><p>Beide wollen Anne schützen, aber Daisuke priorisiert das Kloster, Sui priorisiert Anne.</p></div>
-    <div class="card"><span class="badge">Olga</span><br><strong>Bekanntschaft</strong><p>Verbindung über Kloster und Geodenforschung.</p></div>
-    <div class="card"><span class="badge">Valerion</span><br><strong>Noch keine ausgeprägte Beziehung</strong><p>Bisher kaum direkte Interaktion.</p></div>
-  </div>
-</section>
-
-<section>
-  <h2>0005 – Sui Mitsuko</h2>
-  <div class="grid">
-    <div class="card"><span class="badge">Anne</span><br><strong>Beschützerin / emotionale Stütze</strong><p>Sui bleibt bei Anne, stärkt sie körperlich, bringt sie nach der Verbannung in ein Café und will ihre Unschuld beweisen.</p></div>
-    <div class="card"><span class="badge">Daisuke</span><br><strong>Verbündete mit Konflikt</strong><p>Sui akzeptiert Daisukes Urteil nicht und widerspricht offen. Beide handeln aus Verantwortung, aber mit unterschiedlichen Schwerpunkten.</p></div>
-    <div class="card"><span class="badge">Olga</span><br><strong>Freundschaftlich</strong><p>Olga vertraut Suis Heilkunst und betrachtet sie als mögliche Hilfe für Valerion.</p></div>
-    <div class="card"><span class="badge">Valerion</span><br><strong>Indirekte Bekanntschaft</strong><p>Könnte durch die Analyse von 3003 und Valerions Zustand wichtiger werden.</p></div>
-  </div>
-</section>
-
-<section>
-  <h2>Gruppenstruktur</h2>
-  <h3>Forschungsgruppe</h3>
-  <pre>Valerion ↔ Olga
-
-Themen:
-- Geode
-- Resonanztechnik
-- Erinnerungskristalle
-- Schwarze Magie
-- Valerions Vergangenheit</pre>
-
-  <h3>Klostergruppe</h3>
-  <pre>Daisuke ↔ Sui ↔ Anne
-
-Themen:
-- Drachenei
-- Besessenheit
-- Prophezeiung
-- Verbannung
-- Annes Unschuld</pre>
-
-  <h3>Brückenfigur</h3>
-  <pre>Valerion ↔ Olga ↔ Sui ↔ Anne / Daisuke
-
-Olga ist aktuell die wichtigste Brücke zwischen Forschungsstrang und Klosterstrang.</pre>
-</section>
-
-<section>
-  <h2>Beziehungsstärken</h2>
-  <table>
-    <tr><th>Beziehung</th><th>Status</th><th>Stärke</th></tr>
-    <tr><td>Sui ↔ Anne</td><td>Vertrauen, Schutz, Fürsorge</td><td class="strength">██████████</td></tr>
-    <tr><td>Olga ↔ Valerion</td><td>Freundschaft, Forschung, gegenseitige Fürsorge</td><td class="strength">█████████░</td></tr>
-    <tr><td>Daisuke ↔ Sui</td><td>Verbündet, aber aktuell im Konflikt</td><td class="strength">████████░░</td></tr>
-    <tr><td>Daisuke ↔ Anne</td><td>Belastet, aber nicht zerstört</td><td class="strength">██████░░░░</td></tr>
-    <tr><td>Olga ↔ Sui</td><td>Freundschaftlich, vertrauensvoll</td><td class="strength">█████░░░░░</td></tr>
-  </table>
-</section>
-
-<section>
-  <h2>Aktuelle emotionale Achsen</h2>
-  <p><strong>Anne–Sui</strong> ist die zentrale Schutz- und Heilungsachse nach 5004. Sui hält Anne emotional und körperlich zusammen, während Anne ihr Zuhause verliert.</p>
-  <p><strong>Olga–Valerion</strong> ist die zentrale Forschungs- und Vertrauensachse nach 5005. Olga erkennt Valerions Schmerz und bleibt bei ihm, während die Geode seine Vergangenheit berührt.</p>
-  <p><strong>Daisuke</strong> steht zwischen beiden Extremen: Er schützt das Kloster, aber verletzt Anne dadurch. Tragisch, praktisch und emotional ungefähr so bequem wie ein Stuhl aus Ritualdolchen.</p>
-</section>
-</main>
-
-<footer>
-  DIE CHRONIK – Beziehungsatlas · Stand nach 5005
-</footer>
-</body>
-</html>
+<section><h2>Schnellzugriff</h2><div class="grid">
+<div class="card"><strong><a href="charaktere/index.html">Charaktere</a></strong><p>Valerion, Olga, Anne, Daisuke, Sui und Kain.</p></div>
+<div class="card"><strong><a href="orte/index.html">Orte</a></strong><p>Beta Velar, Elarion, Kloster, Werkstatt und Valerions Haus.</p></div>
+<div class="card"><strong><a href="artefakte/index.html">Artefakte</a></strong><p>Drachenei, Kommunikationskristall, Seelengeode und Fajitkristall.</p></div>
+<div class="card"><strong><a href="ereignisse/index.html">Historische Ereignisse</a></strong><p>5001 bis 5005, die bisher wichtigsten Wendepunkte.</p></div>
+<div class="card"><strong><a href="handlungsfaeden/index.html">Handlungsfäden</a></strong><p>Aktive Plotstränge von Drachenei bis Besessenheit.</p></div>
+<div class="card"><strong><a href="beziehungen.html">Beziehungen</a></strong><p>Aktueller Beziehungsatlas der Hauptfiguren.</p></div>
+</div></section>
+<section><h2>Kanonregeln</h2><ul>
+<li>Elementarlehre und Götterpantheon sind gesperrt und nur durch expliziten Befehl änderbar.</li>
+<li>Atramentum = Die Leere, Solaris = Das Licht, Mortus = Der Tod, Vitalis = Das Leben.</li>
+<li>Atramentum ist nicht automatisch böse, Solaris nicht automatisch gut.</li>
+<li>Crystallus ist die korrekte Schreibweise.</li>
+<li>3002 wurde von Olga allein entwickelt und bildet keine festen Gerätepaare.</li>
+<li>3003A und 3003B wurden gelöscht und sind keine Atlas-Einträge.</li>
+</ul></section>
+</main><footer>DIE CHRONIK · Basis-Wiki · Stand nach 5005</footer></body></html>
